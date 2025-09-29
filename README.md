@@ -50,3 +50,6 @@ while (-not $allCompleted) {
 }
 
 Write-Host "`nAll jobs completed!"
+
+
+http://localhost:8080/api/v1/status/{JobId}
